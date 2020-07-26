@@ -31,11 +31,6 @@ var SpotifyKeyword = map[string]SpotifyKeywords{
 		From: "de",
 		On:   "a",
 	},
-	"it": {
-		Play: "suona",
-		From: "da",
-		On:   "a",
-	},
 	"tr": {
 		Play: "Başlat",
 		From: "dan",
@@ -46,10 +41,10 @@ var SpotifyKeyword = map[string]SpotifyKeywords{
 		From: "van",
 		On:   "op",
 	},
-	"el": {
-		Play: "αναπαραγωγή",
-		From: "από",
-		On:   "στο",
+	"ru": {//TODO Check this
+		Play: "play",
+		From: "from",
+		On:   "on",
 	},
 }
 

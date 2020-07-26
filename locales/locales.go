@@ -12,6 +12,7 @@ import (
 	_ "github.com/NerdDoc/server/res/locales/nl"
 	_ "github.com/NerdDoc/server/res/locales/tr"
 	_ "github.com/NerdDoc/server/res/locales/el"
+	_ "github.com/NerdDoc/server/res/locales/ru"
 
 )
 
@@ -54,6 +55,10 @@ var Locales = []Locale{
 	{
 		Tag:  "el",
 		Name: "greek",
+	},
+	{
+		Tag:  "ru",
+		Name: "russian",
 	},
 }
 

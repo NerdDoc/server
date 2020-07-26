@@ -38,9 +38,9 @@ var ReasonKeywords = map[string]ReasonKeyword{
 		That: "dat",
 		To:   "naar",
 	},
-	"el": {
-		That: "το οποίο",
-		To:   "στο",
+	"ru": {//TODO Check this
+		That: "Что",
+		To:   "через",
 	},
 }
 

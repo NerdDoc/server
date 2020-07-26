@@ -45,17 +45,13 @@ var (
 			"Acció", "Aventura", "Animació", "Nen", "Comèdia", "Crim", "Documental", "Drama", "Fantasia",
 			"Film-Noir", "Horror", "Musical", "Misteri", "Romanç", "Ciència-ficció", "Thriller", "War", "Western",
 		},
-		"it": {
-			"Azione", "Avventura", "Animazione", "Bambini", "Commedia", "Poliziesco", "Documentario", "Dramma", "Fantasia",
-			"Film-Noir", "Orrore", "Musical", "Mistero", "Romantico", "Fantascienza", "Giallo", "Guerra", "Western",
-		},
 		"nl": {
 			"Actie", "Avontuur", "Animatie", "Kinderen", "Komedie", "Krimi", "Documentaire", "Drama", "Fantasie",
 			"Film-Noir", "Horror", "Musical", "Mysterie", "Romantiek", "Sci-Fi", "Thriller", "Oorlog", "Western",
-		},
-		"el": {
-			"Δράση", "Περιπέτεια", "Κινούμενα Σχέδια", "Παιδικά", "Κωμωδία", "Έγκλημα", "Ντοκιμαντέρ", "Δράμα", "Φαντασία",
-			"Film-Noir", "Τρόμου", "Μουσική", "Μυστηρίου", "Ρομαντική", "Επιστημονική Φαντασία", "Θρίλλερ", "Πολέμου", "Western",
+		},// TODO - Check translation fo russian
+		"ru": {
+			"Экшен", "Приключения", "Анимация", "Для детей", "Комедия", "Детектив", "Документальный", "Драма", "Фэнтази",
+			"Нуар", "Ужасы", "Мюзикл", "Мистика", "Романтика", "Sci-Fi", "Триллер", "Военное кино", "Вестерн",
 		},
 	}
 	movies = SerializeMovies()

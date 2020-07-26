@@ -16,7 +16,8 @@ var MathDecimals = map[string]string{
 	"it": `(\d+( |-)decimale(s)?)|(numero (di )?decimale(s)? (è )?\d+)`,
 	"tr": `(\d+( |-)desimal(s)?)|(numara (dan )?desimal(s)? (mı )?\d+)`,
 	"nl": `(\d+( |-)decimal(en)?)|(nummer (van )?decimal(en)? (is )?\d+)`,
-	"el": `(\d+( |-)δεκαδικ(ό|ά)?)|(αριθμός (από )?δεκαδικ(ό|ά)? (είναι )?\d+)`,
+	"ru": `(\d+( |-)decimal(s)?)|(number (of )?decimal(s)? (is )?\d+)`,
+	// TODO for Russian
 }
 
 // FindMathOperation finds a math operation in a string an returns it
