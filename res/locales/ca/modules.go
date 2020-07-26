@@ -5,7 +5,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/olivia-ai/olivia/modules"
+	"github.com/NerdDoc/server/modules"
 )
 
 func init() {

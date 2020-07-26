@@ -5,9 +5,9 @@ import (
 	"os"
 
 	"github.com/gookit/color"
-	"github.com/olivia-ai/olivia/analysis"
-	"github.com/olivia-ai/olivia/network"
-	"github.com/olivia-ai/olivia/util"
+	"github.com/NerdDoc/server/analysis"
+	"github.com/NerdDoc/server/network"
+	"github.com/NerdDoc/server/util"
 )
 
 // TrainData returns the inputs and outputs for the neural network

@@ -3,8 +3,8 @@ package modules
 import (
 	"fmt"
 
-	"github.com/olivia-ai/olivia/language"
-	"github.com/olivia-ai/olivia/util"
+	"github.com/NerdDoc/server/language"
+	"github.com/NerdDoc/server/util"
 )
 
 // CurrencyTag is the intent tag for its module

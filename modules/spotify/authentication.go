@@ -6,9 +6,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/olivia-ai/olivia/util"
+	"github.com/NerdDoc/server/util"
 
-	"github.com/olivia-ai/olivia/user"
+	"github.com/NerdDoc/server/user"
 	"github.com/zmb3/spotify"
 	"golang.org/x/oauth2"
 )

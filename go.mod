@@ -1,4 +1,4 @@
-module github.com/olivia-ai/olivia
+module github.com/NerdDoc/server
 
 go 1.12
 

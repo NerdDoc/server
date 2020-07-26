@@ -3,7 +3,7 @@ package language
 import (
 	"strings"
 
-	"github.com/olivia-ai/olivia/util"
+	"github.com/NerdDoc/server/util"
 )
 
 var names = SerializeNames()

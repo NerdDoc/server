@@ -6,18 +6,18 @@ import (
 	"os"
 	"strings"
 
-	"github.com/olivia-ai/olivia/locales"
-	"github.com/olivia-ai/olivia/training"
+	"github.com/NerdDoc/server/locales"
+	"github.com/NerdDoc/server/training"
 
-	"github.com/olivia-ai/olivia/dashboard"
+	"github.com/NerdDoc/server/dashboard"
 
-	"github.com/olivia-ai/olivia/util"
+	"github.com/NerdDoc/server/util"
 
 	"github.com/gookit/color"
 
-	"github.com/olivia-ai/olivia/network"
+	"github.com/NerdDoc/server/network"
 
-	"github.com/olivia-ai/olivia/server"
+	"github.com/NerdDoc/server/server"
 )
 
 var neuralNetworks = map[string]network.Network{}

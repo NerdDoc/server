@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/olivia-ai/olivia/locales"
+	"github.com/NerdDoc/server/locales"
 
-	"github.com/olivia-ai/olivia/modules"
-	"github.com/olivia-ai/olivia/util"
+	"github.com/NerdDoc/server/modules"
+	"github.com/NerdDoc/server/util"
 )
 
 var (

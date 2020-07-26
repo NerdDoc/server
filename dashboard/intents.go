@@ -6,12 +6,12 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/olivia-ai/olivia/util"
+	"github.com/NerdDoc/server/util"
 
 	"github.com/gorilla/mux"
 
 	"github.com/gookit/color"
-	"github.com/olivia-ai/olivia/analysis"
+	"github.com/NerdDoc/server/analysis"
 )
 
 // An Error is what the api replies when an error occurs

@@ -2,11 +2,11 @@ package start
 
 import (
 	"fmt"
-	"github.com/olivia-ai/olivia/util"
+	"github.com/NerdDoc/server/util"
 	"strings"
 	"time"
 
-	"github.com/olivia-ai/olivia/user"
+	"github.com/NerdDoc/server/user"
 )
 
 func init() {

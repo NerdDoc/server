@@ -4,14 +4,14 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/olivia-ai/olivia/util"
+	"github.com/NerdDoc/server/util"
 
-	"github.com/olivia-ai/olivia/user"
+	"github.com/NerdDoc/server/user"
 
-	"github.com/olivia-ai/olivia/language"
+	"github.com/NerdDoc/server/language"
 	"github.com/zmb3/spotify"
 
-	spotifyModule "github.com/olivia-ai/olivia/modules/spotify"
+	spotifyModule "github.com/NerdDoc/server/modules/spotify"
 )
 
 var (

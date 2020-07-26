@@ -5,8 +5,8 @@ import (
 	"math/rand"
 	"strconv"
 
-	"github.com/olivia-ai/olivia/language"
-	"github.com/olivia-ai/olivia/util"
+	"github.com/NerdDoc/server/language"
+	"github.com/NerdDoc/server/util"
 )
 
 // RandomTag is the intent tag for its module

@@ -2,16 +2,16 @@ package locales
 
 import (
 	// Import these packages to trigger the init() function
-	_ "github.com/olivia-ai/olivia/res/locales/ca"
-	_ "github.com/olivia-ai/olivia/res/locales/de"
-	_ "github.com/olivia-ai/olivia/res/locales/el"
-	_ "github.com/olivia-ai/olivia/res/locales/en"
-	_ "github.com/olivia-ai/olivia/res/locales/es"
-	_ "github.com/olivia-ai/olivia/res/locales/fr"
-	_ "github.com/olivia-ai/olivia/res/locales/it"
-	_ "github.com/olivia-ai/olivia/res/locales/nl"
-	_ "github.com/olivia-ai/olivia/res/locales/tr"
-	_ "github.com/olivia-ai/olivia/res/locales/el"
+	_ "github.com/NerdDoc/server/res/locales/ca"
+	_ "github.com/NerdDoc/server/res/locales/de"
+	_ "github.com/NerdDoc/server/res/locales/el"
+	_ "github.com/NerdDoc/server/res/locales/en"
+	_ "github.com/NerdDoc/server/res/locales/es"
+	_ "github.com/NerdDoc/server/res/locales/fr"
+	_ "github.com/NerdDoc/server/res/locales/it"
+	_ "github.com/NerdDoc/server/res/locales/nl"
+	_ "github.com/NerdDoc/server/res/locales/tr"
+	_ "github.com/NerdDoc/server/res/locales/el"
 
 )
 

@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"sort"
 
-	"github.com/olivia-ai/olivia/modules"
-	"github.com/olivia-ai/olivia/util"
+	"github.com/NerdDoc/server/modules"
+	"github.com/NerdDoc/server/util"
 )
 
 var intents = map[string][]Intent{}

@@ -6,15 +6,15 @@ import (
 	"net/http"
 	"reflect"
 
-	"github.com/olivia-ai/olivia/locales"
+	"github.com/NerdDoc/server/locales"
 
-	"github.com/olivia-ai/olivia/modules/start"
+	"github.com/NerdDoc/server/modules/start"
 
 	"github.com/gookit/color"
 	"github.com/gorilla/websocket"
-	"github.com/olivia-ai/olivia/analysis"
-	"github.com/olivia-ai/olivia/user"
-	"github.com/olivia-ai/olivia/util"
+	"github.com/NerdDoc/server/analysis"
+	"github.com/NerdDoc/server/user"
+	"github.com/NerdDoc/server/util"
 )
 
 // Configure the upgrader

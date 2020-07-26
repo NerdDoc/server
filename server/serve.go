@@ -6,17 +6,17 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/olivia-ai/olivia/analysis"
+	"github.com/NerdDoc/server/analysis"
 
-	"github.com/olivia-ai/olivia/training"
+	"github.com/NerdDoc/server/training"
 
-	"github.com/olivia-ai/olivia/dashboard"
+	"github.com/NerdDoc/server/dashboard"
 
-	"github.com/olivia-ai/olivia/modules/spotify"
+	"github.com/NerdDoc/server/modules/spotify"
 
 	"github.com/gookit/color"
 	"github.com/gorilla/mux"
-	"github.com/olivia-ai/olivia/network"
+	"github.com/NerdDoc/server/network"
 	gocache "github.com/patrickmn/go-cache"
 )
 
