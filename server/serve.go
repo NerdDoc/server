@@ -3,6 +3,7 @@ package server
 import (
 	"encoding/json"
 	"fmt"
+	"mod/request"
 	"net/http"
 	"time"
 
@@ -14,9 +15,9 @@ import (
 
 	"github.com/NerdDoc/server/modules/spotify"
 
+	"github.com/NerdDoc/server/network"
 	"github.com/gookit/color"
 	"github.com/gorilla/mux"
-	"github.com/NerdDoc/server/network"
 	gocache "github.com/patrickmn/go-cache"
 )
 
@@ -37,6 +38,8 @@ func Serve(_neuralNetworks map[string]network.Network, port string) {
 	router.HandleFunc("/callback", spotify.CompleteAuth)
 	// Serve the websocket
 	router.HandleFunc("/websocket", SocketHandle)
+	// Handle local connection
+	router.HandleFunc("/api/v1/request", request.Req).Methods("POST")
 	// Serve the API
 	router.HandleFunc("/api/{locale}/dashboard", GetDashboardData).Methods("GET")
 	router.HandleFunc("/api/{locale}/intent", dashboard.CreateIntent).Methods("POST")

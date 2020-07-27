@@ -1,0 +1,25 @@
+module mod
+
+go 1.13
+
+require (
+	github.com/NerdDoc/go-wave v0.0.0-20200514204128-133ec7328ba4
+	github.com/NerdDoc/server v2.1.2-0.20200726190747-e76204fa07db+incompatible
+	github.com/fatih/color v1.9.0 // indirect
+	github.com/ghostiam/binstruct v1.0.1
+	github.com/gookit/color v1.2.7
+	github.com/gorilla/mux v1.7.4
+	github.com/gorilla/websocket v1.4.2
+	github.com/mattn/go-colorable v0.1.6 // indirect
+	github.com/mattn/go-runewidth v0.0.9 // indirect
+	github.com/patrickmn/go-cache v2.1.0+incompatible
+	github.com/pkg/errors v0.9.1
+	github.com/sirupsen/logrus v1.6.0
+	github.com/soudy/mathcat v0.0.0-20190121135055-f636e7f09e6c
+	github.com/tebeka/snowball v0.4.2
+	github.com/zmb3/spotify v0.0.0-20200422222148-5fe5f9535a2c
+	golang.org/x/crypto v0.0.0-20200510223506-06a226fb4e37
+	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
+	golang.org/x/sys v0.0.0-20200513112337-417ce2331b5c // indirect
+	gopkg.in/cheggaaa/pb.v1 v1.0.28
+)
