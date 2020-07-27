@@ -8,9 +8,9 @@ import (
 	"github.com/ghostiam/binstruct"
 	"github.com/pkg/errors"
 	"io"
+	"mod/wave"
 	"net/http"
 	"net/url"
-	"server/wave"
 	"time"
 )
 

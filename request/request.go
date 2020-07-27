@@ -4,10 +4,6 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"github.com/NerdDoc/server/rnnoise"
-	"github.com/NerdDoc/server/stt"
-	"github.com/NerdDoc/server/tts"
-	"github.com/NerdDoc/server/wave"
 	"mod/rnnoise"
 	"mod/stt"
 	"mod/tts"
@@ -79,14 +75,14 @@ func Req(w http.ResponseWriter, r *http.Request) {
 		fmt.Println(err)
 	}
 
-	var tmp = request.Wave{
+	var tmp = Wave{
 		BitsPerSample: int(wav.Bitspersample),
 		Samplerate:    int(wav.Samplerate),
 		Duration:      wav.Duration,
 		WavData:       wav.Data,
 	}
 
-	var req = request.PlayWaveReq{
+	var req = PlayWaveReq{
 		Wave: tmp,
 		Beep: false,
 	}
